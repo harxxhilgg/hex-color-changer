@@ -1,0 +1,21 @@
+*{
+    background-color: #252525;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.main-div .second-div {
+    align-items: center;
+    background-color: gray;
+    margin: 0 auto;
+    display: inline-block;
+    padding: 2% 5%;
+}
+
+.main-div .second-div p {
+    background-color: transparent;
+}
+
+input {
+    margin: 1rem;
+}
