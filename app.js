@@ -8,4 +8,4 @@ inputValue.addEventListener("keypress", function(event) {
 
         console.log();
     }
-})
+}) 
