@@ -1,45 +1,62 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap');
 
 *{
-    background-color: #252525;
-    color: white;
-    /* text-align: center; */
+    background-color: #24252A;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #edf0f1;
     font-family: 'Raleway', sans-serif;
 }
 
-
-section {
-    border: 1px solid transparent;
-    background-color: grey;
-    border-radius: 1.5rem;
-    height: 45vh;
-    
-    max-width: 1000px;
-    width: 700px;
-    position: relative;
-
-    margin: auto;
-    margin-top: 10.5rem;
+li, a {
+    color: #edf0f1;
+    font-weight: 4000;
 }
 
-.container {
-    position: absolute;
+li, a, button {
+    font-size: 16px;
+    text-decoration: none;
+}
+
+header {
     display: flex;
-
+    justify-content: flex-end;
     align-items: center;
-    justify-content: center;
+    padding: 30px 10%;
+}
 
-    max-width: 200px;
-    width: 150px;
-    height: 70px;
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+}
 
-    border: 1px solid transparent;
-    background-color: pink;
-    border-radius: 1.1rem;
+.nav-links {
+    list-style: none;
+}
 
-    margin: auto;
-    top: 0; 
-    bottom: 0; 
-    left: 0; 
-    right: 0;
+.nav-links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+    color: #0088a9;
+}
+
+button {
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(0, 136, 169, 0.8);
 }
