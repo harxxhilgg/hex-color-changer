@@ -14,7 +14,7 @@ body {
 
 li, a {
     color: #edf0f1;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 li, a, button {
@@ -54,14 +54,14 @@ header {
 button {
     margin-left: 20px;
     padding: 9px 25px;
-    background-color: rgba(0, 136, 169, 1);
+    background-color: #0088a9;
     border: none;
     border-radius: 50px;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: rgba(0, 136, 169, 0.8);
+    background-color: #0088a9cc;
 }
 
 section {
@@ -96,7 +96,6 @@ section {
 }
 
 h3 {
-
     margin-top: 40px; 
     text-align: center;
     font-family: 'Press Start 2P', cursive;
@@ -104,4 +103,25 @@ h3 {
 
 .h3-text {
     color: red;
+}
+
+@media screen and (max-width: 900px) {
+    .nav-links {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container {
+        max-width: 250px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    section {
+        width: 85%;
+    }
+
+    h3 {
+        margin: 1rem 2rem;
+    }
 }
